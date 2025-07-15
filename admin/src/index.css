@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+@import "flowbite/src/themes/default";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+input, textarea {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.active {
+    background-color: #3B82F6;
+    color: #F8FAFC;
+}
